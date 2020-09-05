@@ -11,3 +11,7 @@ Plugin author informations:
 Discord: Pinto#0001
 Steam: https://steamcommunity.com/id/yopintox/
 
+PLUGIN UPDATES:
+soon...
+
+Please suggest something? :)
