@@ -8,6 +8,7 @@ Made the plugin when working for a Portuguese Counter Strike Global Offensive pr
 Helps: none
 
 Plugin author informations:
+
 Discord: Pinto#0001
 Steam: https://steamcommunity.com/id/yopintox/
 
