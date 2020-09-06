@@ -17,7 +17,7 @@ soon...
 
 Please suggest something? :)
 
-UPDATE 06/09/2020
+UPDATE 06/09/2020 - v 1.0.1
 
 - Fixed %N string (Now the guy that killed you name appears.)
 - Fixed some syntax.
