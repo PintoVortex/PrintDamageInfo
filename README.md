@@ -1,7 +1,7 @@
 # PrintDamageInfo
 This plugin will print the HP your "killer" has when you die.
 
-Version - 1.0.0
+Version - 1.0.1
 
 Made the plugin when working for a Portuguese Counter Strike Global Offensive project called "TugaArmy.", it was usefull to support Retakes and other servers making members able to quickly know the enemy HP.
 
