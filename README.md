@@ -16,3 +16,8 @@ PLUGIN UPDATES:
 soon...
 
 Please suggest something? :)
+
+UPDATE 06/09/2020
+
+- Fixed %N string (Now the guy that killed you name appears.)
+- Fixed some syntax.
