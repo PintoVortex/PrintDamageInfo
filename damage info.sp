@@ -13,17 +13,19 @@
 
 #pragma newdecls required
 
-
+#define PLUGIN_VERSION "1.0.1" // last update 06/09/2020 check fixs on github
+ 
 public void OnPluginStart()
 {
     HookEvent("player_death", Event_PlayerDeath);
 }
+
 public Action Event_PlayerDeath(Event event, const char[] name, bool dontBroadcast)
 {
     int userid = GetClientOfUserId(event.GetInt("userid")); // UserID
     int attacker = GetClientOfUserId(event.GetInt("attacker")); // Atacante
     if (attacker == userid) // Atacante = User
-        PrintToChat(attacker, "\x01[\x4HP\x01] Your life is too precious to end with \x02it."); // Suicidio
+        PrintToChat(attacker, "\x01[\x09HP\x01] Don't end with your \x02life."); // Suicidio
     else
-        PrintToChat(userid, "\x01[\x4HP\x01] You died to \x10%s \x01he is at \x04%i\x01 HP", attacker, GetClientHealth(attacker));
+        PrintToChat(userid, "\x01[\x09HP\x01] Died to \x10%N \x01he stayed at \x04%i\x01 HP.", attacker, GetClientHealth(attacker));
 } 
